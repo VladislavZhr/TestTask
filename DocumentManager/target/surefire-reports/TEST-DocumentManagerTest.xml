@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="DocumentManagerTest" time="0.09" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Programming\TestTask\DocumentManager\target\test-classes;C:\Programming\TestTask\DocumentManager\target\classes;C:\Users\strel\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\strel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\strel\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\strel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\strel\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\strel\.m2\repository\org\mockito\mockito-core\5.0.0\mockito-core-5.0.0.jar;C:\Users\strel\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\strel\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\strel\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.0-M1\junit-jupiter-5.12.0-M1.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.0-M1\junit-jupiter-params-5.12.0-M1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Kiev"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="UA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\strel\AppData\Local\Temp\surefire14028364520713987282\surefirebooter-20250204214633869_3.jar C:\Users\strel\AppData\Local\Temp\surefire14028364520713987282 2025-02-04T21-46-33_755-jvmRun1 surefire-20250204214633869_1tmp surefire_0-20250204214633869_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Programming\TestTask\DocumentManager\target\test-classes;C:\Programming\TestTask\DocumentManager\target\classes;C:\Users\strel\.m2\repository\org\projectlombok\lombok\1.18.28\lombok-1.18.28.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\strel\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\strel\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\strel\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\strel\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;C:\Users\strel\.m2\repository\org\mockito\mockito-core\5.0.0\mockito-core-5.0.0.jar;C:\Users\strel\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\strel\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.22\byte-buddy-agent-1.12.22.jar;C:\Users\strel\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter\5.12.0-M1\junit-jupiter-5.12.0-M1.jar;C:\Users\strel\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.12.0-M1\junit-jupiter-params-5.12.0-M1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\strel"/>
+    <property name="user.language" value="uk"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Programming\TestTask\DocumentManager"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\strel\AppData\Local\Temp\surefire14028364520713987282\surefirebooter-20250204214633869_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
+    <property name="user.name" value="strel"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\strel\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\strel\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="C:\Programming\TestTask\DocumentManager"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\strel\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9;C:\Пайтон\venv\Scripts;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\strel\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\NodeJs;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\Zero Install;C:\Program Files\Java\jdk-17\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\strel\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Python 3.9;C:\Пайтон\venv\Scripts;C:\Program Files\Calibre2\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\strel\Downloads\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\Git\cmd;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\NodeJs;C:\Program Files\Java\jdk-17\bin;;C:\Program Files\Zero Install;C:\Program Files\heroku\bin;C:\Users\strel\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testSearch_ByAuthor_ShouldReturnMatchingDocuments" classname="DocumentManagerTest" time="0.02"/>
+  <testcase name="testSearch_ByCreatedTime_ShouldReturnMatchingDocuments" classname="DocumentManagerTest" time="0.001"/>
+  <testcase name="testSearch_WithNoCriteria_ShouldReturnAllDocuments" classname="DocumentManagerTest" time="0.001"/>
+  <testcase name="testSearch_ByTitlePrefix_ShouldReturnMatchingDocuments" classname="DocumentManagerTest" time="0.002"/>
+  <testcase name="testFindById_NonExistingId_ShouldReturnEmpty" classname="DocumentManagerTest" time="0.001"/>
+  <testcase name="testSave_DocumentWithExistingId_ShouldUpdateDocument" classname="DocumentManagerTest" time="0.042"/>
+  <testcase name="testSave_NewDocument_ShouldGenerateIdAndSave" classname="DocumentManagerTest" time="0.001"/>
+  <testcase name="testSearch_ByContent_ShouldReturnMatchingDocuments" classname="DocumentManagerTest" time="0.005"/>
+</testsuite>
